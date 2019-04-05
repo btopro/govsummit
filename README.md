@@ -3,7 +3,14 @@
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/govsummit)
 
 Lesson plan
-## Understanding the differences between elements
+## Try Lit element
+https://lit-element.polymer-project.org/Try
+
+## Capabilities of "the platform"
+- CSS variables
+- Shadow vs light dom composition
+
+## Understanding the differences between element libraries
 
 ## Forking point
 ### Tooling (with Potter, live)
