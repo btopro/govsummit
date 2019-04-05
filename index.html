@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <title>LitElement + Polymer + VanillaJS Example</title>
+    <style>
+      :root {
+        --paper-card-header-color: #FFFFFF;
+      }
+      :defined {
+      }
+      vanilla-example-card {
+        margin: 16px;
+      }
+      lit-example-card {
+        margin: 16px;
+      }
+      polymer-example-card {
+        margin: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <vanilla-example-card name="Vanilla Name used" image="https://btopro.com/files/243b170c2b1bfa37b38cf9b7b4d1f2b6810e8906-dsc01395.jpg">
+      <p>The content of the card via slot</p>
+      <p slot="actions">
+        <a tabindex="-1" href="https://webcomponents.org/"><paper-button raised>WC website</paper-button></a>
+      </p>
+    </vanilla-example-card>
+    <lit-example-card name="Lit Element name" image="https://btopro.com/files/243b170c2b1bfa37b38cf9b7b4d1f2b6810e8906-dsc01395.jpg">
+      <p>The content of the card via slot</p>
+      <p slot="actions">
+        <a tabindex="-1" href="https://webcomponents.org/"><paper-button raised>Somewhere</paper-button></a>
+      </p>
+    </lit-example-card>
+    <polymer-example-card name="Polymer Element usage" image="https://btopro.com/files/243b170c2b1bfa37b38cf9b7b4d1f2b6810e8906-dsc01395.jpg">
+      <p>The content of the card via slot</p>
+      <p slot="actions">
+        <a tabindex="-1" href="https://webcomponents.org/"><paper-button raised>Place</paper-button></a>
+      </p>
+    </polymer-example-card>
+  </body>
+</html> 

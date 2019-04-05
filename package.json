@@ -1,0 +1,13 @@
+{
+  "name": "bbpkhi.run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@polymer/iron-ajax": "^3.0.1",
+    "@polymer/paper-button": "3.0.1",
+    "@polymer/paper-card": "3.0.1",
+    "@polymer/polymer": "3.2.0",
+    "@webcomponents/webcomponentsjs": "2.2.7",
+    "lit-element": "2.1.0"
+  }
+}
