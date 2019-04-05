@@ -21,6 +21,7 @@ class LitExampleCard extends LitElement {
     }
     paper-card {
       background-color: light-grey;
+      color: var(--lit-example-card-card-text-color, white);
     }
     </style>
     <paper-card heading="${this.name}" image="${this.image}" elevation="1" animated-shadow="false">

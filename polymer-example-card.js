@@ -35,9 +35,6 @@ class PolymerExampleCard extends PolymerElement {
       </div>
     </paper-card>`;
   }
-  _handleResponse(e) {
-    console.log(e);
-  }
 }
 
 customElements.define('polymer-example-card', PolymerExampleCard);
