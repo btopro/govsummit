@@ -1,4 +1,5 @@
 import "@polymer/paper-card/paper-card.js";
+
 class ExampleCard extends HTMLElement {
   static get observedAttributes() {
     return ["name", "image"];
@@ -38,21 +39,18 @@ class ExampleCard extends HTMLElement {
     if (window.ShadyCSS) {
       window.ShadyCSS.styleElement(this);
     }
-
-    if (this._queue.length) {
-      this._processQueue();
-    }
   }
   render() {
     this.shadowRoot.innerHTML = null;
     this.template.innerHTML = this.html;
 
     if (window.ShadyCSS) {
-      window.ShadyCSS.prepareTemplate(this.template, this.tag);
+      window.ShadyCSS.prepareTemplate(this.template, 'vanilla-example-card');
     }
     this.shadowRoot.appendChild(this.template.content.cloneNode(true));
   }
-  static get html(){ return `<style>
+
+  get html(){ return `<style>
     :host {
       display: block;
     }
