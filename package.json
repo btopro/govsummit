@@ -6,7 +6,7 @@
     "@polymer/iron-list": "^3.0.2",
     "@polymer/paper-button": "3.0.1",
     "@polymer/paper-card": "3.0.1",
-    "@polymer/polymer": "3.2.0",
+    "@polymer/polymer": "^3.3.0",
     "@webcomponents/webcomponentsjs": "2.2.7",
     "lit-element": "2.1.0"
   }

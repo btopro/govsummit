@@ -1,5 +1,5 @@
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
-import "@polymer/paper-card/paper-card.js";
+import "@polymer/paper-card/paper-card.js"; 
 class PolymerExampleCard extends PolymerElement {
   static get properties() {
     return { 
